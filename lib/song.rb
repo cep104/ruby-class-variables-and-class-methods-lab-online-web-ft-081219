@@ -28,7 +28,7 @@ class Song
     @@genres.each do |genre|
       new = genre.length 
     end
-    genre_hash[@@genres]=new
+    genre_hash[@@genres]<< new
     genre_hash
   end
   

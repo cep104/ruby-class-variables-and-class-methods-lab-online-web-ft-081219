@@ -24,6 +24,8 @@ class Song
   end
   
   def self.genre_count
+    genre_hash = {}
+    genre_hash[@@genres]=@@songs
     
   end
   
